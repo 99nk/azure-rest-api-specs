@@ -1,0 +1,65 @@
+{
+  "parameters": {
+    "subscriptionId": "00000000-0000-0000-0000-000000000000",
+    "resourceGroupName": "my-resource-group",
+    "accountName": "myaccount",
+    "safetyProviderName": "mySafetyProvider",
+    "api-version": "2025-10-01-preview",
+    "safetyProvider": {
+      "name": "mySafetyProvider",
+      "properties": {
+        "providerName": "mySafetyProvider"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/my-resource-group/providers/Microsoft.CognitiveServices/accounts/myaccount/raiValidateExternalSafetyProvider/mySafetyProvider",
+        "type": "Microsoft.CognitiveServices/accounts/raiValidateExternalSafetyProvider",
+        "name": "mySafetyProvider",
+        "properties": {
+          "providerId": "9f2c7a1d-3b5e-4d92-9e87-6a8a4b2c13f4",
+          "providerName": "mySafetyProvider",
+          "mode": "sync",
+          "managedIdentity": "/subscriptions/12345678-90ab-cdef-1234-567890abcdef/resourceGroups/myResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myManagedIdentity",
+          "keyVaultUri": "https://test.vault.azure.net/",
+          "secretName": "testSecret",
+          "url": "https://test.vault.azure.com",
+          "regionOverrides": {
+            "eastus": {
+              "url": "https://test.vault.eastus.azure.com"
+            }
+          },
+          "createdAt": "2025-11-18T05:10:25.8912587+00:00",
+          "lastModifiedAt": "2025-11-18T05:10:25.8912751+00:00"
+        },
+        "etag": "\"34222877-ca71-40de-9598-55a692a0a642\""
+      }
+    },
+    "201": {
+      "body": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/my-resource-group/providers/Microsoft.CognitiveServices/accounts/myaccount/raiValidateExternalSafetyProvider/mySafetyProvider",
+        "type": "Microsoft.CognitiveServices/accounts/raiValidateExternalSafetyProvider",
+        "name": "mySafetyProvider",
+        "properties": {
+          "providerId": "9f2c7a1d-3b5e-4d92-9e87-6a8a4b2c13f4",
+          "providerName": "mySafetyProvider",
+          "mode": "sync",
+          "managedIdentity": "/subscriptions/12345678-90ab-cdef-1234-567890abcdef/resourceGroups/myResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myManagedIdentity",
+          "keyVaultUri": "https://test.vault.azure.net/",
+          "secretName": "testSecret",
+          "url": "https://test.vault.azure.com",
+          "regionOverrides": {
+            "eastus": {
+              "url": "https://test.vault.eastus.azure.com"
+            }
+          },
+          "createdAt": "2025-11-18T05:10:25.8912587+00:00",
+          "lastModifiedAt": "2025-11-18T05:10:25.8912751+00:00"
+        },
+        "etag": "\"34222877-ca71-40de-9598-55a692a0a642\""
+      }
+    }
+  }
+}

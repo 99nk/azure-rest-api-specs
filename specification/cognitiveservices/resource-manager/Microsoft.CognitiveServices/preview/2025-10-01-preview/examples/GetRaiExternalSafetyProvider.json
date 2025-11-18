@@ -17,6 +17,11 @@
           "secretName": "mySecretName",
           "managedIdentity": "00000000-0000-0000-0000-000000000000",
           "keyVaultUri": "https://example.vault.azure.net",
+          "regionOverrides": {
+            "eastus": {
+              "url": "https://test.vault.eastus.azure.com"
+            }
+          },
           "createdAt": "2025-07-01T00:00:00Z",
           "lastModifiedAt": "2025-07-02T00:00:00Z"
         }
